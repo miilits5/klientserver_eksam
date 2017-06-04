@@ -5,7 +5,7 @@
 //Lisab yhe kylastuse counterile juurde
 
 mysqli_query($conn, "UPDATE counter_ttihhano SET counter = counter + 1");
-$tulemus = mysqli_query($conn, "SELECT counter FROM counter");
+$tulemus = mysqli_query($conn, "SELECT counter FROM counter_ttihhano");
 
 //V6tab numbri baasist
 
