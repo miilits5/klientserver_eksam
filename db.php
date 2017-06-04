@@ -13,9 +13,6 @@ $count = mysqli_fetch_row($tulemus);
 
 //N2itan palju kylastatud
 
-print "$count[0]";
-\n
-\n
-print "$count[1]";
+print "$count[0] \n\n $count[1]";
 
 ?>
