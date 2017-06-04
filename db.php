@@ -8,7 +8,7 @@ mysqli_query($conn, "UPDATE counter_ttihhano SET counter = counter + 1");
 
 //V6tab numbri baasist
 
-$count = mysqli_fetch_row($conn, mysqli_query($conn, "SELECT counter FROM counter"));
+$count = mysqli_fetch_row(mysqli_query($conn, "SELECT counter FROM counter"));
 
 //N2itan palju kylastatud
 
