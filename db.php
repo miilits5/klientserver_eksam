@@ -4,7 +4,7 @@
  mysqli_select_db($conn, "test") or die ("ei saa valida baasi"); 
 //Lisab yhe kylastuse counterile juurde
 
-mysqli_query("UPDATE counter_ttihhano SET counter = counter + 1");
+mysqli_query($conn, "UPDATE counter_ttihhano SET counter = counter + 1");
 
 //V6tab numbri baasist
 
