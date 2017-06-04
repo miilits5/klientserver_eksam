@@ -8,7 +8,6 @@
   <meta name="description" content="Tarvi Kodutööd">
   <meta name="author" content="Tarvi TIhhanov">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
 
 </head>
 
