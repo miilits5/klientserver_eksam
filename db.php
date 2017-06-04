@@ -9,7 +9,7 @@ $tulemus = mysqli_query($conn, "SELECT counter FROM counter");
 
 //V6tab numbri baasist
 
-$count = mysqli_fetch_row($conn, $tulemus);
+$count = mysqli_fetch_row($tulemus);
 
 //N2itan palju kylastatud
 
