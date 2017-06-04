@@ -1,7 +1,7 @@
 <?php
  // Connects to your Database 
- mysqli_connect("localhost", "test", "t3st3r123") or die(mysqli_error()); 
- mysqli_select_db("test"); 
+ $conn = mysqli_connect("localhost", "test", "t3st3r123") or die("ei saa yhendus"); 
+ mysqli_select_db($conn, "test") or die ("ei saa valida baasi"); 
 //Lisab yhe kylastuse counterile juurde
 
 mysqli_query("UPDATE counter_ttihhano SET counter = counter + 1");
