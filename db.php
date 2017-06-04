@@ -11,7 +11,7 @@
             $result = $l->query($sql);
     //V6tab numbri baasist
 
-$count = mysqli_fetch_row(mysql_query("SELECT counter FROM counter"));
+$count = mysqli_fetch_row(mysqli_query("SELECT counter FROM counter"));
 
 //N2itan palju kylastatud
 
