@@ -13,4 +13,4 @@ ise moditud uuema koodi peale
 Baasiinfo
 test baasis:
 
-ESC counter_ttihhano;
+DESC counter_ttihhano;
