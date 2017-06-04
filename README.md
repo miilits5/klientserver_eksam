@@ -8,3 +8,9 @@ Loo lihtne veebilehe külastajate loendur. Kuva lehe külastuste arvu ja viimase
 kasutatud abiliseks:
 https://www.thoughtco.com/web-page-hit-counter-2693831
 ise moditud uuema koodi peale
+
+
+Baasiinfo
+test baasis:
+
+ESC counter_ttihhano;
