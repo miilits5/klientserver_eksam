@@ -13,9 +13,12 @@
 </head>
 
 <body>
-<h1>Eksam</h1>+
+<h1>Eksam</h1>
 <br>
 <br>
+<?php
+require_once('db.php');
+?>
 <br>
 </body>
 </html>
