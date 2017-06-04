@@ -5,7 +5,7 @@
 //Lisab yhe kylastuse counterile juurde
 
 mysqli_query($conn, "UPDATE counter_ttihhano SET counter = counter + 1");
-$tulemus = mysqli_query($conn, "SELECT * FROM counter_ttihhano");
+$tulemus = mysqli_query($conn, "SELECT counter, time FROM counter_ttihhano");
 
 //V6tab numbri baasist
 
@@ -14,5 +14,6 @@ $count = mysqli_fetch_row($tulemus);
 //N2itan palju kylastatud
 
 print "$count[0]";
+print "$count[1]";
 
 ?>
